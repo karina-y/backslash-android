@@ -1,10 +1,21 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="layout.SearchInspirationFragment">
+
+    <data>
+        <import type="android.view.View" />
+        <variable name="search" type="layout.binding.SearchInspirationBinding.Search" />
+    </data>-->
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="layout.SearchInspirationFragment">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top">
@@ -26,6 +37,234 @@
             android:layout_alignParentRight="true"
             android:src="@drawable/inspiration_bubble" />
 
+        <TableLayout
+            android:id="@+id/searchLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/parallaxInsp"
+            android:layout_marginBottom="@dimen/dp10"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp40"
+            android:padding="1dp">
+
+            <!-- manual entry -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <EditText
+                    android:id="@+id/manualSearchEntry"
+                    style="@style/AppTheme.FormCell"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/dp32"
+                    android:hint="search"/>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- TODO dropdowns should either match the width or be centered, also need a border -->
+            <!-- color -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/colorTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/color" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- material -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/materialTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/material" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- tops -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/topsTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/tops" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- bottoms -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/bottomsTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/bottoms" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- one pieces -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/onePiecesTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/one_pieces" />
+
+            </TableRow>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- outerwear -->
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/outerwearTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/outerwear" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- occasion -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/occasionTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/occasion" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- season -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/seasonTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/season" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- style -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/styleTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/style" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- weather -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/weatherTags"
+                    style="@style/AppTheme.FormSpinner"
+                    android:layout_weight="1"
+                    android:entries="@array/weather" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/badaboom"
+            style="@style/AppTheme.Button"
+            android:background="@drawable/button_theme"
+            android:layout_below="@+id/searchLayout"
+            android:text="@string/style_me_caps"
+            android:layout_marginBottom="@dimen/dp20"/>
+
     </RelativeLayout>
 
-</FrameLayout>
+</FrameLayout><!--
+</layout>-->

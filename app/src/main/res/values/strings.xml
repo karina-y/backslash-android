@@ -8,21 +8,244 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
 
     <!-- account -->
     <string name="register">Register</string>
     <string name="register_caps">REGISTER</string>
     <string name="login">Login</string>
     <string name="login_caps">LOGIN</string>
+    <string name="search_caps">SEARCH</string>
+    <string name="style_me_caps">STYLE ME</string>
 
     <!-- tags -->
-    <array name="colors">
-        <item></item>
+    <array name="color">
+        <item>Color</item>
         <item>Light</item>
         <item>All Light</item>
         <item>Dark</item>
+        <item>All Dark</item>
+        <item>Colorful</item>
+        <item>Neutral</item>
+        <item>Pop of Color</item>
+        <item>Pattern</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
     </array>
-    <string name="title_activity_login">Sign in</string>
+
+    <array name="material">
+        <item>Material</item>
+        <item>Applique</item>
+        <item>Beaded</item>
+        <item>Cashmere</item>
+        <item>Cotton</item>
+        <item>Denim</item>
+        <item>Fur</item>
+        <item>Knit</item>
+        <item>Lace</item>
+        <item>Leather</item>
+        <item>Sequin</item>
+        <item>Sheer</item>
+        <item>Silk</item>
+        <item>Suede</item>
+        <item>Wool</item>
+    </array>
+
+    <array name="tops">
+        <item>Tops</item>
+        <item>Crop Top</item>
+        <item>Sleeveless</item>
+        <item>Short-Sleeve</item>
+        <item>Long-Sleeve</item>
+        <item>Blouse</item>
+        <item>Button-Up</item>
+    </array>
+
+    <array name="bottoms">
+        <item>Bottoms</item>
+        <item>Skirt</item>
+        <item>Mini Skirt</item>
+        <item>Knee-Length Skirt</item>
+        <item>Midi Skirt</item>
+        <item>Tea-Length Skirt</item>
+        <item>Maxi Skirt</item>
+        <item>Shorts</item>
+        <item>Capris</item>
+        <item>Jeans</item>
+        <item>Bell-Bottom Jeans</item>
+        <item>Skinny Jeans</item>
+        <item>Pants</item>
+        <item>Slacks</item>
+        <item>Trousers</item>
+    </array>
+
+    <array name="one_pieces">
+        <item>One Pieces</item>
+        <item>Romper</item>
+        <item>Jumper</item>
+        <item>Jumpsuit</item>
+        <item>Dress</item>
+        <item>Mini Dress</item>
+        <item>Knee-Length Dress</item>
+        <item>Midi Dress</item>
+        <item>Tea-Length Dress</item>
+        <item>Maxi Dress</item>
+        <item>Sleeveless Dress</item>
+        <item>Sleeveless Mini Dress</item>
+        <item>Sleeveless Knee-Length Dress</item>
+        <item>Sleeveless Midi Dress</item>
+        <item>Sleeveless Tea-Length Dress</item>
+        <item>Sleeveless Maxi Dress</item>
+        <item>Short-Sleeve Dress</item>
+        <item>Short-Sleeve Mini Dress</item>
+        <item>Short-Sleeve Knee-Length Dress</item>
+        <item>Short-Sleeve Midi Dress</item>
+        <item>Short-Sleeve Tea-Length Dress</item>
+        <item>Short-Sleeve Maxi Dress</item>
+        <item>Long-Sleeve Dress</item>
+        <item>Long-Sleeve Mini Dress</item>
+        <item>Long-Sleeve Knee-Length Dress</item>
+        <item>Long-Sleeve Midi Dress</item>
+        <item>Long-Sleeve Tea-Length Dress</item>
+        <item>Long-Sleeve Maxi Dress</item>
+    </array>
+
+    <array name="outerwear">
+        <item>Outerwear</item>
+        <item>Blazer</item>
+        <item>Cardigan</item>
+        <item>Coat</item>
+        <item>Duster Coat</item>
+        <item>Trench Coat</item>
+        <item>Jacket</item>
+        <item>Denim Jacket</item>
+        <item>Leather Jacket</item>
+        <item>Poncho</item>
+        <item>Shawl</item>
+        <item>Sweater</item>
+    </array>
+
+    <array name="occasion">
+        <item>Occasion</item>
+        <item>Brunch</item>
+        <item>Casual</item>
+        <item>Date</item>
+        <item>Evening</item>
+        <item>Party</item>
+    </array>
+
+    <array name="season">
+        <item>Season</item>
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+    </array>
+
+    <array name="style">
+        <item>Style</item>
+        <item>Edgy</item>
+        <item>Feminine</item>
+        <item>Funky</item>
+        <item>Minimal</item>
+        <item>Tomboy</item>
+    </array>
+
+    <array name="accessories">
+        <item>Accessories</item>
+        <item>Belt</item>
+        <item>Hat</item>
+        <item>Jewelry</item>
+        <item>Winter</item>
+    </array>
+
+    <array name="bags">
+        <item>Bags</item>
+        <item>Backpack</item>
+        <item>Baguette</item>
+        <item>Barrel</item>
+        <item>Box</item>
+        <item>Bucket</item>
+        <item>Clutch</item>
+        <item>Crossbody</item>
+        <item>Doctor</item>
+        <item>Envelope</item>
+        <item>Flap</item>
+        <item>Frame</item>
+        <item>Handbag</item>
+        <item>Hobo</item>
+        <item>Messenger</item>
+        <item>Minaudiere</item>
+        <item>Quilted</item>
+        <item>Saddle</item>
+        <item>Satchel</item>
+        <item>Tote</item>
+        <item>Wallet</item>
+        <item>Wristlet</item>
+    </array>
+
+    <array name="footwear_height">
+        <item>Footwear: Height</item>
+        <item>Flat</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Very High</item>
+        <item>Lady Gaga High</item>
+    </array>
+
+    <array name="footwear_style">
+        <item>Footwear: Style</item>
+        <item>Almond Toe</item>
+        <item>Peep Toe</item>
+        <item>Pointed Toe</item>
+        <item>Round Toe</item>
+        <item>Square Toe</item>
+        <item>Ankle-Strap</item>
+        <item>Ankle Boots</item>
+        <item>Mid-Calf Boots</item>
+        <item>Tall Boots</item>
+        <item>OTK Boots</item>
+        <item>Block-Heel</item>
+        <item>Mules</item>
+        <item>Wedges</item>
+        <item>Stiletto</item>
+        <item>Sandals</item>
+        <item>Slingback</item>
+        <item>Sneakers</item>
+    </array>
+
+    <array name="weather">
+        <item>Weather</item>
+        <item>Hot</item>
+        <item>Warm</item>
+        <item>Mild</item>
+        <item>Brisk</item>
+        <item>Cold</item>
+    </array>
+
+    <array name="designer">
+        <item>Designer</item>
+        <item>YSL</item>
+        <item>Fendi</item>
+        <item>Givenchy</item>
+        <item>Gucci</item>
+    </array>
+
+    <array name="fit">
+        <item>Fit</item>
+        <item>Bodycon</item>
+    </array>
+
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>

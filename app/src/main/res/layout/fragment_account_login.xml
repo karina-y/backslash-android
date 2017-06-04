@@ -18,6 +18,7 @@
             android:background="@drawable/profile_parallax"
             android:scaleType="centerCrop" />
 
+        <!-- change to "sign in loser" -->
         <ImageView
             android:layout_width="300dp"
             android:layout_height="185dp"
@@ -54,7 +55,7 @@
         </TableLayout>
 
         <TableLayout
-            android:id="@+id/registerPassword"
+            android:id="@+id/loginPasswordLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/registerEmail"
@@ -81,14 +82,9 @@
 
         <Button
             android:id="@+id/badaboom"
-            android:layout_below="@+id/registerPassword"
+            android:layout_below="@+id/loginPasswordLayout"
             style="@style/AppTheme.Button"
             android:background="@drawable/button_theme"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
             android:text="@string/login_caps"/>
 
     </RelativeLayout>

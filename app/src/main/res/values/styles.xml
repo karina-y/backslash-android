@@ -72,6 +72,11 @@
         <item name="colorButtonNormal">@color/backslash</item>
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:background">@color/backslash</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">20dp</item>
     </style>
 
     <style name="AppTheme.PopupButton" parent="Widget.AppCompat.Button.Borderless.Colored">

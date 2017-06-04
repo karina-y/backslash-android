@@ -5,9 +5,11 @@ import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.AppCompatSpinner;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 
 import com.backslash.R;
@@ -77,8 +79,7 @@ public class SearchInspirationFragment extends Fragment {
         Typeface tf = Typeface.createFromAsset(getActivity().getAssets(), fontPath);
 
         // Applying font
-        if (tv != null && tf != null)
-        {
+        if (tv != null && tf != null) {
             tv.setTypeface(tf);
         }
 

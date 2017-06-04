@@ -21,7 +21,6 @@ import android.widget.Button;
 import layout.AccountLoginFragment;
 import layout.AccountRegisterFragment;
 import layout.HomeFragment;
-import layout.LoginActivity.LoginActivity;
 import layout.ProfileClosetFragment;
 import layout.ProfileOutfitsFragment;
 import layout.SearchInspirationFragment;
