@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/hanger"
+            android:title="@string/login" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/hanger"
+            android:title="@string/register" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hanger"
+            android:title="Home" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_closet"
+            android:icon="@drawable/hanger"
+            android:title="Closet" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_outfits"
+            android:icon="@drawable/hanger"
+            android:title="Outfits" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inspiration"
+            android:icon="@drawable/hanger"
+            android:title="Inspiration" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/hanger"
+            android:title="Settings" />
+    </group>
+
+</menu>

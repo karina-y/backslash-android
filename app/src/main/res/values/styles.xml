@@ -1,0 +1,153 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/statusBar</item>
+        <item name="colorAccent">@color/backslashLight</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/backslash</item>
+        <item name="android:textColorSecondary">#ff0000</item>
+    </style>
+
+    <style name="AppTheme.PageTitle">
+        <item name="android:textSize">@dimen/app_theme_text_page_title</item>
+        <item name="android:textColor">@color/backslash</item>
+    </style>
+
+
+    <style name="AppTheme.TextSmall" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/app_theme_text_small_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextSmallInverse" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/app_theme_text_small_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.TextMedium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/app_theme_text_medium_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextMediumInverse" parent="TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:textSize">@dimen/app_theme_text_medium_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.TextLarge" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">@dimen/app_theme_text_large_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextLargeInverse" parent="TextAppearance.AppCompat.Large.Inverse">
+        <item name="android:textSize">@dimen/app_theme_text_large_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.TextTransparent" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#00000000</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textSize">@dimen/app_theme_button_text_size</item>
+        <item name="android:padding">@dimen/app_theme_button_padding</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="colorButtonNormal">@color/backslash</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:background">@color/backslash</item>
+    </style>
+
+    <style name="AppTheme.PopupButton" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textSize">@dimen/app_theme_button_text_size</item>
+        <item name="android:padding">@dimen/dp10</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="colorButtonNormal">@color/backslash</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="AppTheme.ModalButton" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textSize">@dimen/app_theme_button_text_size</item>
+        <item name="android:padding">@dimen/dp10</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="colorButtonNormal">@color/backslash</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.ModalLongButton" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textSize">@dimen/app_theme_button_text_size</item>
+        <item name="android:paddingTop">@dimen/dp20</item>
+        <item name="android:paddingBottom">@dimen/dp20</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="colorButtonNormal">@color/backslash</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.ModalLongButtonRed" parent="AppTheme.ModalLongButton">
+        <item name="colorButtonNormal">@color/red</item>
+    </style>
+
+    <style name="AppTheme.FormCell" parent="AppTheme.TextMedium">
+        <item name="android:background">@color/translucent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">@dimen/dp05</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="AppTheme.FormLeftCell" parent="AppTheme.FormCell">
+        <item name="android:layout_marginLeft">@dimen/dp05</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="AppTheme.FormWhiteCell" parent="AppTheme.FormCell">
+        <item name="android:background">#fff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.FormEditCell" parent="AppTheme.FormCell">
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="AppTheme.FormEditBoxCell" parent="AppTheme.TextMedium">
+        <item name="android:background">@color/translucent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">@dimen/dp05</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/dp100</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:inputType">textMultiLine|textCapSentences</item>
+        <item name="android:maxLines">500</item>
+    </style>
+
+    <style name="AppTheme.FormSpinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/dp32</item>
+    </style>
+</resources>

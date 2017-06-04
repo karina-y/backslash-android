@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backslash">#EC7C7D</color>
+    <color name="backslashDark">#DD7678</color>
+    <color name="backslashLight">#F6BEBE</color>
+    <color name="statusBar">#EC7C7D</color>
+    <color name="colorAccent">#ff0000</color>
+    <color name="translucent">#00000000</color>
+    <color name="black">#000</color>
+    <color name="gray">#7D7D7D</color>
+    <color name="white">#fff</color>
+    <color name="windowBar">#fff</color>
+    <color name="red">#ff0000</color>
+</resources>
