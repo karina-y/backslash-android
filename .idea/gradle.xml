@@ -8,7 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android-pdk" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/material-1.2.2" />
+            <option value="$PROJECT_DIR$/pdk" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

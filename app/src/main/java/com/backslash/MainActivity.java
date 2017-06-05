@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -18,12 +19,22 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+import com.backslash.multispinner.KeyPairBoolData;
+import com.backslash.multispinner.MultiSpinnerSearch;
+import com.backslash.multispinner.SpinnerListener;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import layout.AccountLoginFragment;
 import layout.AccountRegisterFragment;
 import layout.HomeFragment;
 import layout.ProfileClosetFragment;
 import layout.ProfileOutfitsFragment;
 import layout.SearchInspirationFragment;
+
+import static com.android.volley.VolleyLog.TAG;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener
@@ -34,10 +45,68 @@ public class MainActivity extends AppCompatActivity
         , AccountRegisterFragment.OnFragmentInteractionListener
         , AccountLoginFragment.OnFragmentInteractionListener {
 
+    private static final String TAG = "MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
+
+
+
+
+
+
+
+/*
+        final List<String> colorList = Arrays.asList(getResources().getStringArray(R.array.color));
+
+        final List<KeyPairBoolData> listArray0 = new ArrayList<>();
+
+        for (int i = 0; i < colorList.size(); i++) {
+            KeyPairBoolData h = new KeyPairBoolData();
+            h.setId(i + 1);
+            h.setName(colorList.get(i));
+            h.setSelected(false);
+            listArray0.add(h);
+        }
+
+        MultiSpinnerSearch searchMultiSpinnerUnlimited = (MultiSpinnerSearch) findViewById(R.id.colorListView);
+
+        searchMultiSpinnerUnlimited.setItems(listArray0, -1, new SpinnerListener() {
+
+            @Override
+            public void onItemsSelected(List<KeyPairBoolData> items) {
+
+                for (int i = 0; i < items.size(); i++) {
+                    if (items.get(i).isSelected()) {
+                        Log.i(TAG, i + " : " + items.get(i).getName() + " : " + items.get(i).isSelected());
+                    }
+                }
+            }
+        });
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         Fragment fragment = null;
@@ -70,6 +139,11 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+
+
+
     }
 
     @Override

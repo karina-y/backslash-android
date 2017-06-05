@@ -1,5 +1,6 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="layout.ProfileClosetFragment">
@@ -25,6 +26,196 @@
             android:layout_alignBottom="@+id/parallaxProfile"
             android:layout_alignParentRight="true"
             android:src="@drawable/coco_left_bubble" />
+
+        <TableLayout
+            android:id="@+id/closetTagsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileBubble"
+            android:layout_marginBottom="@dimen/dp10"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp40"
+            android:padding="1dp">
+
+
+            <!-- TODO dropdowns should either match the width or be centered, also need a border -->
+            <!-- color -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/colorListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/color"/>
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- material -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/materialListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/material"/>
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- tops -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/topsListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/tops"/>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- bottoms -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/bottomsListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/bottoms"/>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- one pieces -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/onePiecesListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/one_pieces"/>
+            </TableRow>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- outerwear -->
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/outerwearListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/outerwear"/>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- occasion -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/occasionListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/occasion"/>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- season -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/seasonListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/season"/>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- style -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/styleListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/style"/>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/translucent" />
+
+            <!-- weather -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formbox_background">
+
+                <com.backslash.multispinner.MultiSpinnerSearch
+                    android:id="@+id/weatherListView"
+                    style="@style/AppTheme.FormSpinner"
+                    app:hintText="@string/weather"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/badaboom"
+            style="@style/AppTheme.Button"
+            android:background="@drawable/button_theme"
+            android:layout_below="@+id/closetTagsLayout"
+            android:text="@string/save_caps"/>
 
     </RelativeLayout>
 

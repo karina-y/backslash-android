@@ -6,6 +6,8 @@
 
     <string name="action_settings">Settings</string>
 
+    <string name="type_to_search">type to search</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_login">Sign in</string>
@@ -15,12 +17,16 @@
     <string name="register_caps">REGISTER</string>
     <string name="login">Login</string>
     <string name="login_caps">LOGIN</string>
+
+    <!-- other buttons -->
     <string name="search_caps">SEARCH</string>
     <string name="style_me_caps">STYLE ME</string>
+    <string name="upload_caps">UPLOAD</string>
+    <string name="save_caps">SAVE</string>
 
     <!-- tags -->
-    <array name="color">
-        <item>Color</item>
+    <string name="color">Color</string>
+    <string-array name="color">
         <item>Light</item>
         <item>All Light</item>
         <item>Dark</item>
@@ -40,10 +46,10 @@
         <item>Red</item>
         <item>White</item>
         <item>Yellow</item>
-    </array>
+    </string-array>
 
-    <array name="material">
-        <item>Material</item>
+    <string name="material">Material</string>
+    <string-array name="material">
         <item>Applique</item>
         <item>Beaded</item>
         <item>Cashmere</item>
@@ -58,20 +64,20 @@
         <item>Silk</item>
         <item>Suede</item>
         <item>Wool</item>
-    </array>
+    </string-array>
 
-    <array name="tops">
-        <item>Tops</item>
+    <string name="tops">Tops</string>
+    <string-array name="tops">
         <item>Crop Top</item>
         <item>Sleeveless</item>
         <item>Short-Sleeve</item>
         <item>Long-Sleeve</item>
         <item>Blouse</item>
         <item>Button-Up</item>
-    </array>
+    </string-array>
 
-    <array name="bottoms">
-        <item>Bottoms</item>
+    <string name="bottoms">Bottoms</string>
+    <string-array name="bottoms">
         <item>Skirt</item>
         <item>Mini Skirt</item>
         <item>Knee-Length Skirt</item>
@@ -86,10 +92,10 @@
         <item>Pants</item>
         <item>Slacks</item>
         <item>Trousers</item>
-    </array>
+    </string-array>
 
-    <array name="one_pieces">
-        <item>One Pieces</item>
+    <string name="one_pieces">One-Pieces</string>
+    <string-array name="one_pieces">
         <item>Romper</item>
         <item>Jumper</item>
         <item>Jumpsuit</item>
@@ -117,10 +123,10 @@
         <item>Long-Sleeve Midi Dress</item>
         <item>Long-Sleeve Tea-Length Dress</item>
         <item>Long-Sleeve Maxi Dress</item>
-    </array>
+    </string-array>
 
-    <array name="outerwear">
-        <item>Outerwear</item>
+    <string name="outerwear">Outerwear</string>
+    <string-array name="outerwear">
         <item>Blazer</item>
         <item>Cardigan</item>
         <item>Coat</item>
@@ -132,44 +138,44 @@
         <item>Poncho</item>
         <item>Shawl</item>
         <item>Sweater</item>
-    </array>
+    </string-array>
 
-    <array name="occasion">
-        <item>Occasion</item>
+    <string name="occasion">Occasion</string>
+    <string-array name="occasion">
         <item>Brunch</item>
         <item>Casual</item>
         <item>Date</item>
         <item>Evening</item>
         <item>Party</item>
-    </array>
+    </string-array>
 
-    <array name="season">
-        <item>Season</item>
+    <string name="season">Season</string>
+    <string-array name="season">
         <item>Spring</item>
         <item>Summer</item>
         <item>Fall</item>
         <item>Winter</item>
-    </array>
+    </string-array>
 
-    <array name="style">
-        <item>Style</item>
+    <string name="style">Style</string>
+    <string-array name="style">
         <item>Edgy</item>
         <item>Feminine</item>
         <item>Funky</item>
         <item>Minimal</item>
         <item>Tomboy</item>
-    </array>
+    </string-array>
 
-    <array name="accessories">
-        <item>Accessories</item>
+    <string name="accessories">Accessories</string>
+    <string-array name="accessories">
         <item>Belt</item>
         <item>Hat</item>
         <item>Jewelry</item>
         <item>Winter</item>
-    </array>
+    </string-array>
 
-    <array name="bags">
-        <item>Bags</item>
+    <string name="bags">Bags</string>
+    <string-array name="bags">
         <item>Backpack</item>
         <item>Baguette</item>
         <item>Barrel</item>
@@ -191,20 +197,20 @@
         <item>Tote</item>
         <item>Wallet</item>
         <item>Wristlet</item>
-    </array>
+    </string-array>
 
-    <array name="footwear_height">
-        <item>Footwear: Height</item>
+    <string name="footwear_height">Footwear: Height</string>
+    <string-array name="footwear_height">
         <item>Flat</item>
         <item>Low</item>
         <item>Medium</item>
         <item>High</item>
         <item>Very High</item>
         <item>Lady Gaga High</item>
-    </array>
+    </string-array>
 
-    <array name="footwear_style">
-        <item>Footwear: Style</item>
+    <string name="footwear_style">Footwear: Style</string>
+    <string-array name="footwear_style">
         <item>Almond Toe</item>
         <item>Peep Toe</item>
         <item>Pointed Toe</item>
@@ -222,29 +228,29 @@
         <item>Sandals</item>
         <item>Slingback</item>
         <item>Sneakers</item>
-    </array>
+    </string-array>
 
-    <array name="weather">
-        <item>Weather</item>
+    <string name="weather">Weather</string>
+    <string-array name="weather">
         <item>Hot</item>
         <item>Warm</item>
         <item>Mild</item>
         <item>Brisk</item>
         <item>Cold</item>
-    </array>
+    </string-array>
 
-    <array name="designer">
-        <item>Designer</item>
+    <string name="designer">Designer</string>
+    <string-array name="designer">
         <item>YSL</item>
         <item>Fendi</item>
         <item>Givenchy</item>
         <item>Gucci</item>
-    </array>
+    </string-array>
 
-    <array name="fit">
-        <item>Fit</item>
+    <string name="fit">Fit</string>
+    <string-array name="fit">
         <item>Bodycon</item>
-    </array>
+    </string-array>
 
 
     <!-- Strings related to login -->

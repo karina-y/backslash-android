@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-pdk/android-pdk.iml" filepath="$PROJECT_DIR$/android-pdk/android-pdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/backslash-android.iml" filepath="$PROJECT_DIR$/backslash-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/material-1.2.2/material-1.2.2.iml" filepath="$PROJECT_DIR$/material-1.2.2/material-1.2.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdk/pdk.iml" filepath="$PROJECT_DIR$/pdk/pdk.iml" />
     </modules>
   </component>
 </project>
